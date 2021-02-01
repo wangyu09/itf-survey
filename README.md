@@ -1,1 +1,1 @@
-# Iterface Survey for ExKaldi
+# Interface Survey for ExKaldi
