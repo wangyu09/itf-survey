@@ -1,6 +1,6 @@
 import os
 
-assert os.path.isfile("lexiconp.txt"),"Please generate the lexicon.txt before this step!"
+assert os.path.isfile("lexicon.txt"),"Please generate the lexicon.txt before this step!"
 assert os.path.isfile("silence_phones.txt"),"Please generate the silence_phones.txt before this step!"
 
 phones = [] 
