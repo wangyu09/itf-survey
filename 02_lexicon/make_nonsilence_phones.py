@@ -4,7 +4,7 @@ assert os.path.isfile("lexicon.txt"),"Please generate the lexicon.txt before thi
 assert os.path.isfile("silence_phones.txt"),"Please generate the silence_phones.txt before this step!"
 
 phones = [] 
-with open("lexiconp.txt") as fr:
+with open("lexicon.txt") as fr:
   while True:
     line = fr.readline()
     if line == "":
